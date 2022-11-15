@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="./styles/myStyles.css">
+
+  <title>RegistrationForm</title>
+  
+</head>
+<body>
+
+  <header>
+      <div class="home-header-tabs">
+        <ul>
+          <li>
+            <a href="HomePage.html">Home</a>
+          </li>
+          <li>
+            <a href="RoadMap.html">Road Map</a>
+          </li>
+          <li>
+            <a href="RegistrationForm.html">Registration Form</a>
+          </li>
+          <li><a href="https://www.iti.gov.eg/" target="_blank">Contact</a></li>
+        </ul>
+      </div>
+      <div class="iti_logo">
+        <img
+          src="./img/ITI_logo.png"
+          alt="ITI_Logo">
+      </div>
+  </header>
+
+  <section>
+    <form  class="form-background" action="" method="get">
+      <table>
+        <th>
+          <tr>
+            <h1 class="form-name">
+              Register - Create Accoount
+            </h1>
+        
+            <p class="compulsory">
+              Field marked with 
+              <span style="color: red;">*</span> 
+              are compulsory fields
+            </p>
+          </tr>
+        </th>
+        <tr>
+          <td class="column1">
+            <span style="color: red;">*</span>Your Name
+          </td>
+          <td>
+            <input class="colummn2-borders"
+            type="text" name="name" id="name" required size="30">
+          </td>
+        </tr>
+        <tr>
+          <td class="column1">
+            <span style="color: red;">*</span>E-mail ID
+          </td>
+          <td>
+            <input class="colummn2-borders"
+            type="email" name="email" id="email" required size="45">
+          </td>
+        </tr>
+        <tr>
+          <td class="column1">
+            Alternate E-Mail ID
+          </td>
+          <td>
+            <input class="colummn2-borders"
+            type="email" name="email" id="email" size="45">
+          </td>
+        </tr>
+        <tr>
+          <td class="column1">
+            Your Phone
+          </td>
+          <td>
+            <p class="column2-text">
+              Country Code - City Code - Phone Number
+            </p>
+            <div>
+              <input class="colummn2-borders" style="width: 75px;"
+            type="text" name="phone1" id="phone1">
+            <p style="display: inline; font-size: 14px;">-</p>
+            <input class="colummn2-borders" style="width: 50px;"
+            type="text" name="phone1" id="phone1">
+            <p style="display: inline; font-size: 14px;">-</p>
+            <input class="colummn2-borders" style="width: 130px;"
+            type="text" name="phone1" id="phone1">
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="column1">
+            Mobile Phone
+          </td>
+          <td>
+            <input class="colummn2-borders"
+            type="text" name="phone2" id="phone2" size="28">
+          </td>
+        </tr>
+        <tr>
+          <td class="column1">
+            <span style="color: red;">*</span>Your Postal Address
+          </td>
+          <td>
+            <textarea class="colummn2-borders"
+            rows="4" cols="34" name="address"></textarea>
+          </td>
+        </tr>
+        <tr>
+          <td class="column1">
+            <span style="color: red;">*</span>Country
+          </td>
+          <td>
+            <div class="country-selection-styling">
+              <select class="colummn2-borders" id="country" name="country">
+                <option value="select-one" disabled selected>
+                  --------------------Select One--------------------&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </option>
+                <option value="Egypt">Egypt</option>
+                <option value="UK">UK</option>
+                <option value="USA">USA</option>
+                <option value="kenya">kenya</option>
+                <option value="Japan">Japan</option>
+              </select>
+              <div class="select-arrow-background"><div class="select-arrow-styling"></div></div>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="column1">
+            <span style="color: red;">*</span>Password
+          </td>
+          <td>
+            <input class="colummn2-borders"
+            type="password" name="password" id="password" 
+            placeholder="Enter maximum 8 numbers"
+            maxlength="8" required size="20">
+          </td>
+        </tr>
+        <tr>
+          <td class="column1">
+            <span style="color: red;">*</span>Re-Enter Password
+          </td>
+          <td>
+            <input class="colummn2-borders"
+            type="password" name="password" id="password" 
+            placeholder="Enter maximum 8 numbers"
+            maxlength="8" required size="20">
+          </td>
+        </tr>
+        <tr>
+          <td>
+          </td>
+          <td>
+            <input class="colummn2-buttons"
+            type="checkbox" name="checkbox-terms" id="checkbox-terms">
+            <p class="column2-text" style="display: inline;">
+              I accept the <a href=""><strong>Terms of Use</strong></a>
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+          </td>
+          <td>
+            <input class="colummn2-buttons" style="margin-right: 3px;"
+            type="button" name="Continue" id="Continue" value="Continue >>">
+            <input class="colummn2-buttons"
+            type="reset" name="reset" id="reset" value="Reset">
+          </td>
+        </tr>
+      </table>
+    </form>
+  </section>
+
+  <footer>
+    <hr>
+
+    <h4 class="copyright">
+      Copyright 2022 by Noha Salah &reg;.All Rights Reserved.
+    </h4>
+  </footer>
+
+</body>
+</html>

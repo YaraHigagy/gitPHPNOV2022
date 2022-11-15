@@ -1,0 +1,186 @@
+header {
+  background-color: black;
+  width: 100%;
+  height: 70px;
+  top: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  z-index: 100;
+}
+
+.home-header-tabs {
+  /* height: 100%; */
+  display: inline-block;
+}
+
+.home-header-tabs ul {
+  padding: 0;
+}
+
+.home-header-tabs li {
+  display: inline-block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.home-header-tabs li a {
+  color: white;
+  text-decoration: none;
+  padding-top: 26px;
+  padding-bottom: 27px;
+  padding-left: 10px;
+  padding-right: 10px;
+  transition: 0.15s;
+}
+
+.home-header-tabs li :hover {
+  cursor: pointer;
+  background-color: rgb(51, 51, 51);
+  opacity: 50%;
+} 
+
+.iti_logo {
+  float: right;
+}
+
+.iti_logo img {
+  background-color: white;
+  height: 70px;
+  width: 200px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.copyright {
+  color: rgb(49, 89, 141);
+  text-align: center;
+}
+
+section {
+  padding-top: 70px;
+}
+
+.categories-1 {
+  display: inline-block;
+  width: 50%;
+}
+
+.categories-2 {
+  display: inline-block;
+}
+
+/* .center-reference {
+  
+} */
+
+.form-background {
+  background-color: rgba(212, 253, 253, 0.192);
+  width: 600px;
+  height: 550px;
+  /* padding-top: 70px; */
+  border: solid;
+  border-color: rgba(204, 250, 235, 0.404);
+  border-width: 3px;
+  border-radius: 3px;
+  position: relative;
+  margin: auto;
+}
+
+.form-name {
+  color: rgb(142, 196, 196);
+  font-family: Tahoma;
+  font-weight: 100;
+  /* position: absolute; */
+  /* top: -10px; */
+  margin-left: 10px;
+}
+
+.compulsory {
+  background-color: rgba(142, 196, 196, 0.363);
+  margin-left: 10px;
+  margin-right: 10px;
+  border-style: dashed;
+  border-color: rgba(135, 196, 196, 0.87);
+  border-width: 2px;
+  border-radius: 1px;
+}
+
+table {
+  border-spacing: 8px 3px;
+  font-family: Tahoma;
+  color: rgb(93, 136, 136);
+}
+
+.column1 {
+  background-color: rgba(142, 196, 196, 0.363);
+  /* color: rgb(93, 136, 136); */
+  /* font-family: Tahoma; */
+  width: 200px;
+  text-align: right;
+  /* padding-top: 6px;
+  padding-bottom: 6px;
+  padding-right: 6px; */
+  padding: 6px;
+}
+
+.column2-text {
+  /* color: rgb(93, 136, 136); */
+  /* font-family: Tahoma; */
+  font-size: 14px;
+  margin-top: 6px;
+  margin-bottom: 2px; 
+}
+
+.colummn2-borders,
+.colummn2-buttons {
+  border: 2px solid rgb(112, 141, 132);
+  border-radius: 2px;
+}
+
+.country-selection-styling {
+  position: relative;
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  height: 26px;
+}
+
+.select-arrow-background {
+  position: absolute;
+  display: inline-block;
+  background-color: rgba(93, 136, 136, 0.329);
+  height: 20px;
+  width: 22px;
+  border-radius: 4px;
+  right: 66px;
+  top: 3px;
+}
+
+.select-arrow-styling {
+  position: absolute;
+  border-top: 2px solid black;
+  border-left: 2px solid black;
+  border-color: rgba(55, 80, 80, 0.685);
+  height: 8px;
+  width: 8px;
+  top: 8px;
+  left: 6px;
+  transform: rotate(45deg);
+}
+
+.select-arrow-styling:hover {
+  transform: rotate(-135deg);
+  top: 3px;
+}
+
+.select-arrow-styling:hover,
+.colummn2-buttons {
+  cursor: pointer;
+}
